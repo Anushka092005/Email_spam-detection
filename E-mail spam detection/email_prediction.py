@@ -9,7 +9,7 @@ def main():
     st.write("This app predicts whether an email is Spam or Not Spam.")
 
     # Load CSV
-    df = pd.read_csv("Email_Spam_Detection_Cleaned.csv")
+    df = pd.read_csv("email_spam_detection_cleaned.csv")
 
     # Features and Target
     X = df[[
